@@ -1,0 +1,24 @@
+openapi: 3.0.1
+info:
+  title: Bunluck Webhook
+  version: 1.0.0
+paths:
+  /:
+    post:
+      summary: Send a command to bunluck webhook
+      operationId: sendCommand
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                command:
+                  type: string
+                  example: "remindTasks"
+      responses:
+        '200':
+          description: OK
+servers:
+  - url: https://script.google.com/macros/s/AKfycbyH5AKZ6fgK03-fO81ZH87qC2UXo9iMAotNAEmbKLqqRWPmRxjlzhsUb-DxuQau0Zg0/exec
