@@ -21,4 +21,4 @@ paths:
         '200':
           description: OK
 servers:
-  - url: https://script.google.com/macros/s/AKfycbyH5AKZ6fgK03-fO81ZH87qC2UXo9iMAotNAEmbKLqqRWPmRxjlzhsUb-DxuQau0Zg0/exec
+  - url:https://script.google.com/macros/s/AKfycbyH5AKZ6fgK03-fO81ZH87qC2UXo9iMAotNAEmbKLqqRWPmRxjlzhsUb-DxuQau0Zg0/exec
